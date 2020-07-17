@@ -35,9 +35,23 @@ html{
     margin: 0 auto;
 }
 
+.container{
+    background: #a5e2fa;
+}
+
+#name{
+    font-family: 'Sail', cursive;
+    color: #c6d3f5;
+}
+
 #myImg{
     width: 200px;
     height: 200px;
+}
+
+header{
+    background: #0727a8;
+};
 }
 
 header{
@@ -52,6 +66,7 @@ header h1{
     font-size: 600%;
 }
 
+/* Navigation Style Settings */
 header nav a{
     font-size: 180%;
     text-decoration: none;
@@ -76,14 +91,70 @@ nav{
     justify-content: flex-start;
 }
 
+/* Setting flex for my images section */
 .images{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
+/* Adding padding, margin and border around ALL images. */
 img{
     padding:  1rem;
     margin: 1rem;
     border: 1px solid blue;
 }
+
+.sectionOne{
+    font-family: 'Prociono';
+    font-size: 200%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.sectionOne h2{
+    font-size: 210%;
+}
+
+.sectionOne p{
+    width: 300px;
+    text-align: center;
+}
+
+.alignText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    font-family: 'Prociono';
+    background: #0727a8;
+    font-size: 200%;
+    text-align: center;
+    width: 100%;
+}
+
+.contactMe h3{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    color: #c6d3f5;
+}
+
+#contactMe{
+    text-decoration: none;
+    color: white;
+}
+
+#contactMe:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
